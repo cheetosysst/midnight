@@ -2,14 +2,13 @@
 	import { Menu } from 'lucide-svelte';
 
 	const links = [
-		{ title: '汽車', slug: 'car', disabled: false },
-		{ title: '機車', slug: 'motorcycle', disabled: true },
-		{ title: '機械', slug: 'mechanical', disabled: true }
+		{ title: '汽車測驗', slug: 'car', disabled: false },
+		{ title: '機車測驗', slug: 'motorcycle', disabled: true },
+		{ title: '機械測驗', slug: 'mechanical', disabled: true }
 	];
-	let w: number;
 </script>
 
-<div class="flex py-4 px-4 lg:px-0" bind:clientWidth={w}>
+<div class="flex py-4 px-4 lg:px-0">
 	<a href="/" class="btn btn-ghost group flex items-center gap-2 text-2xl font-semibold">
 		駕照筆試
 		<span class="text-primary group-hover:text-primary-focus transition-colors">練習</span>
