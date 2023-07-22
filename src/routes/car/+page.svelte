@@ -1,9 +1,5 @@
 <script>
 	import CommonInnerLayout from '$lib/commonInnerLayout.svelte';
-	import { onMount } from 'svelte';
-
-	let ready = false;
-	onMount(() => (ready = true));
 </script>
 
 <CommonInnerLayout>
