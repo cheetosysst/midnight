@@ -22,11 +22,11 @@
 		<p class="p-3">
 			Made with love and ☕ by <a
 				href="https://thect.cc"
-				class="link link-primary underline-offset-4">Chen</a
+				class="link-primary link underline-offset-4">Chen</a
 			><br />
-			<span class="flex pt-1 gap-4 justify-center">
+			<span class="flex justify-center gap-4 pt-1">
 				{#each footerLinks as link}
-					<a href={link.slug} class="link link-primary underline-offset-4">{link.name}</a>
+					<a href={link.slug} class="link-primary link underline-offset-4">{link.name}</a>
 				{/each}
 			</span>
 		</p>
