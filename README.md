@@ -1,38 +1,22 @@
-# create-svelte
+# Midnight
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+[Midnight](htttps://github/cheetosysst/midnight) 是一個幫助您準備駕照筆試的工具
 
-## Creating a project
+本專案中的駕照考試題目來源為[中華民國交通部公路總局](https://www.thb.gov.tw/News_Download.aspx?n=284&sms=12823)，相關細節以及最新題庫內容，請詳閱相關官方網站資訊，本工具僅供練習參考使用。
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## 開發 Developing
 
 ```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+pnpm run dev
 ```
 
-## Building
+### TODO
 
-To create a production version of your app:
+- 完整題庫
+- 檢查和顯示答案
+- 計算分數
+- 部屬
+- 多語言支援
+- 無障礙
 
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+歡迎提交 PR 和 Issue
