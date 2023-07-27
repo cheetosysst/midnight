@@ -5,8 +5,23 @@
 本專案中的駕照考試題目來源為[中華民國交通部公路總局](https://www.thb.gov.tw/News_Download.aspx?n=284&sms=12823)，相關細節以及最新題庫內容，請詳閱相關官方網站資訊，本工具僅供練習參考使用。
 
 ## 開發 Developing
+再來，請安裝相依套件。
 
 ```bash
+npm install -g pnpm
+
+# or 
+
+pnpm install
+```
+
+最後，啟動開發伺服器。
+
+```bash
+npm run dev
+
+# or
+
 pnpm run dev
 ```
 
