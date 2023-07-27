@@ -5,6 +5,21 @@
 本專案中的駕照考試題目來源為[中華民國交通部公路總局](https://www.thb.gov.tw/News_Download.aspx?n=284&sms=12823)，相關細節以及最新題庫內容，請詳閱相關官方網站資訊，本工具僅供練習參考使用。
 
 ## 開發 Developing
+
+首先，請確保您的電腦上已經安裝了 [Node.js](https://nodejs.org/) 和 [pnpm](https://pnpm.js.org/)。
+
+接著，請下載本專案。
+
+```bash
+git clone git@github.com:cheetosysst/midnight.git
+```
+
+然後，進入專案資料夾。
+
+```bash
+cd midnight
+```
+
 再來，請安裝相依套件。
 
 ```bash
