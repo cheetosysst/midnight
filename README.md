@@ -6,36 +6,12 @@
 
 ## 開發 Developing
 
-首先，請確保您的電腦上已經安裝了 [Node.js](https://nodejs.org/) 和 [pnpm](https://pnpm.js.org/)。
-
-接著，請下載本專案。
+請依序執行以下指令：
 
 ```bash
 git clone git@github.com:cheetosysst/midnight.git
-```
-
-然後，進入專案資料夾。
-
-```bash
 cd midnight
-```
-
-再來，請安裝相依套件。
-
-```bash
-npm install -g pnpm
-
-# or 
-
-pnpm install
-```
-
-最後，啟動開發伺服器。
-
-```bash
-npm run dev
-
-# or
+pnpm install -g pnpm
 
 pnpm run dev
 ```
