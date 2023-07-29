@@ -6,7 +6,13 @@
 
 ## 開發 Developing
 
+請依序執行以下指令：
+
 ```bash
+git clone git@github.com:cheetosysst/midnight.git
+cd midnight
+pnpm install -g pnpm
+
 pnpm run dev
 ```
 
