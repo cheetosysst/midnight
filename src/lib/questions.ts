@@ -12,7 +12,7 @@ export type Bank = {
 	}>
 }
 
-// // TODO add proper type for data here
+// TODO add proper type for data here
 const banks = new Map<string, Map<string, Bank>>();
 
 export async function getBank(bank: string, language: string) {
@@ -24,11 +24,12 @@ export async function getBank(bank: string, language: string) {
 	}
 	
 	try {
-		const data = await import(path.join(process.cwd(), "static", "banks", bank, `${language}.json`))
+		// @vite-ignore
+		const data = await import(path.join(process.cwd(), "static", "banks", bank, `${language}.json`)/* @vite-ignore */)
 		// const rawdata = fs.readFileSync(path.join(process.cwd(), "static", "banks", bank, `${language}.json`))
 		// const data = JSON.parse(rawdata.toString())
-		target?.set(language, data);
-		return data;
+		target?.set(language, data.default);
+		return data.default;
 	} catch (e) {
 		console.error(e);
 		return Promise.reject();

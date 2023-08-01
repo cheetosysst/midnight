@@ -26,10 +26,11 @@ export async function load({ params }) {
 	if (!mode) throw error(404);
 
 	const data = await getBank("car","zh-TW")
+	// console.log(data.default)
 
 	return {
 		...mode,
-		total: data.questions.length,
+		total: data.length,
 		sequence: randomSequence(40, 40)
 	};
 }

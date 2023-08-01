@@ -34,9 +34,9 @@
 	<p class="flex flex-col gap-4">
 		{#each question.options as option, index}
 			<button
-				class="hover card p-4 {buttonStyles[
+				class="hover card p-4 px-8 {buttonStyles[
 					index
-				]} btn-block mx-auto font-normal transition-colors md:w-[70%]"
+				]} btn-block mx-auto font-normal transition-all"
 				on:click={() => submit(index)}>{option}</button
 			>
 		{/each}
